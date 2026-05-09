@@ -19,7 +19,7 @@ public class BallController : MonoBehaviour
     // Sự kiện toàn cục để Camera hoặc các Manager khác có thể lắng nghe
     public static event Action<Transform> OnBallKicked;
     public static event Action<Vector3> OnBallReachedGoal;
-
+     
     public bool IsKicked { get; private set; } = false;
 
     void Start()
