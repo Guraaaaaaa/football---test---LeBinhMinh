@@ -4,10 +4,8 @@ using UnityEngine;
 public class BallDetector : MonoBehaviour
 {
     [Header("Detection Settings")]
-    [Tooltip("Bán kính vùng phát hiện bóng xung quanh nhân vật")]
     [SerializeField] float detectionRadius = 2.5f;
     
-    [Tooltip("Layer dành riêng cho bóng để tối ưu hóa việc quét (ví dụ: tạo layer 'Ball')")]
     [SerializeField] LayerMask ballLayer;
 
     public static event Action<bool, BallController> OnNearBallChanged;
