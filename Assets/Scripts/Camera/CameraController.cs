@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
-{
+{ 
     [Header("Targets")]
     [SerializeField] Transform playerTransform;
 
