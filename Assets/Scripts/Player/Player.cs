@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        HandleMovement();
+        HandleMovement(); 
     }
 
     void HandleMovement()
